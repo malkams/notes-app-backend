@@ -34,7 +34,7 @@ const addNoteHandler = (request, h) => {
     message : 'catatan gagal ditambahkan',
   });
   response.code(500);
-  return reponse;
+  return response;
 
 };
 //view note function
